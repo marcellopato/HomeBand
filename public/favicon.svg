@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <linearGradient id="neckGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad)"/>
+  <!-- Guitar Silhouette & Strings -->
+  <path d="M44 14 C44 12, 48 10, 50 12 C52 14, 50 18, 48 20 L38 30 C41 33, 41 38, 38 41 C36 43, 34 43, 32 41 L27 46 C29 50, 27 54, 23 55 C19 56, 15 53, 14 49 C13 45, 17 42, 21 44 L26 39 C24 37, 24 35, 26 33 C29 30, 34 30, 37 33 Z" fill="#ffffff" fill-opacity="0.9"/>
+  <!-- Sound waves -->
+  <path d="M12 20 Q16 16 20 20 T28 20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M10 26 Q16 21 22 26 T34 26" stroke="#ffffff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>
