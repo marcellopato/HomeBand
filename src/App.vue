@@ -14,8 +14,12 @@ import { Cpu, Activity, ShieldCheck } from 'lucide-vue-next';
 const project = useProjectStore();
 const audio = useAudioStore();
 
-const activeView = ref<'timeline' | 'amp' | 'drummer' | 'pianoroll'>('timeline');
-const isPluginModalOpen = ref(false);
+const urlParams = new URLSearchParams(window.location.search);
+const initialView = urlParams.get('view') as 'timeline' | 'amp' | 'drummer' | 'pianoroll';
+const activeView = ref<'timeline' | 'amp' | 'drummer' | 'pianoroll'>(
+  initialView && ['timeline', 'amp', 'drummer', 'pianoroll'].includes(initialView) ? initialView : 'timeline'
+);
+const isPluginModalOpen = ref(urlParams.get('modal') === 'plugins');
 const audioContextState = ref('ready');
 const sampleRate = ref(48000);
 

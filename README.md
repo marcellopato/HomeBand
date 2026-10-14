@@ -10,6 +10,18 @@
 
 ---
 
+## 📸 Screenshots
+
+### 🎛️ Multitrack Arranger & Timeline
+![HomeBand Multitrack Arranger](docs/images/homeband-arranger.png)
+
+<p align="center">
+  <img src="docs/images/homeband-amp.png" alt="HomeBand Amp Designer & Pedalboard" width="49%" />
+  <img src="docs/images/homeband-drummer.png" alt="HomeBand Procedural Drummer" width="49%" />
+</p>
+
+---
+
 ## 🏛️ System Architecture
 
 ```
