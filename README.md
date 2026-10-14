@@ -131,7 +131,7 @@ npm install
 # Iniciar servidor Vite com AudioWorklet ativo
 npm run dev
 ```
-Acesse `http://localhost:5173` no seu navegador (Chrome, Chromium, Brave, Firefox, Edge).
+Acesse `http://localhost:5180` no seu navegador (Chrome, Chromium, Brave, Firefox, Edge).
 
 ### Compilar para Produção Web
 ```bash
