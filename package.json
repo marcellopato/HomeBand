@@ -1,7 +1,9 @@
 {
   "name": "homeband",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modern cross-platform Digital Audio Workstation for Linux and Web",
+  "author": "marcellopato",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
