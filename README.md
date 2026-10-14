@@ -1,6 +1,6 @@
-# GarageBand Linux & Web (DSP AudioWorklet) 🎸🥁🎹
+# HomeBand Linux & Web (DSP AudioWorklet) 🎸🥁🎹
 
-Engenharia reversa moderna e multiplataforma do **Apple GarageBand**, desenhada com foco em Linux e arquitetura híbrida de alto desempenho: **Frontend Reativo em Vue 3 + Tailwind CSS**, **Engine de Áudio Digital em Web Audio API / AudioWorklet DSP** e empacotamento nativo via **Tauri**.
+Workstation de Áudio Digital (DAW) moderna e multiplataforma, desenhada com foco em Linux e arquitetura híbrida de alto desempenho: **Frontend Reativo em Vue 3 + Tailwind CSS**, **Engine de Áudio Digital em Web Audio API / AudioWorklet DSP** e empacotamento nativo via **Tauri**. Inspirada na estética e fluxo intuitivo do GarageBand.
 
 ---
 
@@ -69,7 +69,7 @@ Cadeia serial completa: `Input Gain -> Stompbox Pedalboard -> Preamp Saturation 
 ## 📂 Estrutura de Diretórios
 
 ```
-GarageBand/
+HomeBand/
 ├── public/
 │   ├── favicon.svg
 │   └── worklets/                      # Scripts DSP AudioWorklet (Thread de Áudio)

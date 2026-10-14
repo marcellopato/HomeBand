@@ -1,7 +1,7 @@
 [package]
-name = "garageband"
+name = "homeband"
 version = "1.0.0"
-description = "GarageBand Linux & Web Audio Workstation"
+description = "HomeBand Linux & Web Audio Workstation"
 authors = ["marcellopato"]
 edition = "2021"
 

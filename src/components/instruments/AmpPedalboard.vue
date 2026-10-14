@@ -68,7 +68,7 @@ function updateDSP() {
           <!-- Glowing Valve/Jewel Pilot Light -->
           <div class="w-4 h-4 rounded-full bg-red-600 border-2 border-amber-300 shadow-[0_0_12px_rgba(239,68,68,0.9)] animate-pulse"></div>
           <span class="text-xs uppercase font-extrabold tracking-widest text-amber-400 font-mono">
-            GARAGE AMPLIFICATION • TUBE STAGE
+            HOMEBAND AMPLIFICATION • TUBE STAGE
           </span>
         </div>
 

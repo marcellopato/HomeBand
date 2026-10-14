@@ -7,7 +7,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "GarageBand",
+    "productName": "HomeBand",
     "version": "1.0.0"
   },
   "tauri": {
@@ -28,20 +28,20 @@
     "bundle": {
       "active": true,
       "targets": ["deb", "appimage"],
-      "identifier": "com.marcellopato.garageband",
+      "identifier": "com.marcellopato.homeband",
       "icon": [
         "icons/icon.png"
       ],
       "category": "AudioVideo",
-      "shortDescription": "GarageBand Linux & Web Audio Workstation",
-      "longDescription": "Modern cross-platform GarageBand reverse-engineered with Web Audio API, AudioWorklet DSP, and Vue 3."
+      "shortDescription": "HomeBand Linux & Web Audio Workstation",
+      "longDescription": "Modern cross-platform DAW reverse-engineered with Web Audio API, AudioWorklet DSP, and Vue 3."
     },
     "security": {
       "csp": null
     },
     "windows": [
       {
-        "title": "GarageBand",
+        "title": "HomeBand",
         "width": 1280,
         "height": 800,
         "minWidth": 960,

@@ -41,7 +41,7 @@ function onMasterSlider(e: Event) {
         </div>
         <div>
           <h1 class="text-sm font-bold text-neutral-100 tracking-tight flex items-center gap-1.5">
-            GarageBand
+            HomeBand
             <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-orange-500/20 text-orange-400 border border-orange-500/30">
               DSP Worklet
             </span>

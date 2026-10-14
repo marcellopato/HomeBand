@@ -6,5 +6,5 @@
 fn main() {
     tauri::Builder::default()
         .run(tauri::generate_context!())
-        .expect("error while running garageband tauri application");
+        .expect("error while running homeband tauri application");
 }
