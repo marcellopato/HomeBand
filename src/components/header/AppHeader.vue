@@ -11,7 +11,8 @@ import {
   Guitar,
   Music,
   Mic,
-  Disc3
+  Disc3,
+  Sliders
 } from 'lucide-vue-next';
 
 defineProps<{
@@ -88,6 +89,15 @@ function onMasterSlider(e: Event) {
         >
           <Music class="w-3.5 h-3.5 text-emerald-400" />
           <span>Piano Roll</span>
+        </button>
+
+        <button
+          @click="emit('openPlugins')"
+          class="px-2.5 py-1.5 rounded flex items-center gap-1 text-neutral-400 hover:text-orange-400 transition-colors cursor-pointer"
+          title="Gerenciador de Plugins Nativos Linux (VST3 / CLAP / LV2)"
+        >
+          <Sliders class="w-3.5 h-3.5" />
+          <span>Plugins</span>
         </button>
       </nav>
     </div>

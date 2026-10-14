@@ -8,12 +8,14 @@ import ArrangerTimeline from './components/timeline/ArrangerTimeline.vue';
 import AmpPedalboard from './components/instruments/AmpPedalboard.vue';
 import DrummerPad from './components/instruments/DrummerPad.vue';
 import PianoRollModal from './components/instruments/PianoRollModal.vue';
+import PluginManagerModal from './components/plugins/PluginManagerModal.vue';
 import { Cpu, Activity, ShieldCheck } from 'lucide-vue-next';
 
 const project = useProjectStore();
 const audio = useAudioStore();
 
 const activeView = ref<'timeline' | 'amp' | 'drummer' | 'pianoroll'>('timeline');
+const isPluginModalOpen = ref(false);
 const audioContextState = ref('ready');
 const sampleRate = ref(48000);
 
@@ -54,6 +56,13 @@ onUnmounted(() => {
     <AppHeader
       :active-view="activeView"
       @update:active-view="activeView = $event"
+      @open-plugins="isPluginModalOpen = true"
+    />
+
+    <!-- Plugin Manager Modal -->
+    <PluginManagerModal
+      :is-open="isPluginModalOpen"
+      @close="isPluginModalOpen = false"
     />
 
     <!-- Main Workspace with Vintage Rosewood / Mahogany Side Trims -->
